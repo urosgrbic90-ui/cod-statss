@@ -1,23 +1,8 @@
-const DB_NAME = "cod_stats_db";
-const DB_VERSION = 3;
-
-// ---------- DB ----------
-function openDB() {
-  return new Promise((resolve, reject) => {
-    const req = indexedDB.open(DB_NAME, DB_VERSION);
-    req.onsuccess = () => resolve(req.result);
-    req.onerror = () => reject(req.error);
-  });
-}
-
-function getAllSavedSeries(db) {
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(["series"], "readonly");
-    const store = tx.objectStore("series");
-    const req = store.getAll();
-    req.onsuccess = () => resolve(req.result || []);
-    req.onerror = () => reject(req.error);
-  });
+async function loadSeriesFromJSON() {
+  const res = await fetch("/data/series.json", { cache: "no-store" });
+  if (!res.ok) throw new Error(`Could not load /data/series.json (HTTP ${res.status})`);
+  const data = await res.json();
+  return data.series || [];
 }
 
 // ---------- Helpers ----------
@@ -226,8 +211,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   const status = document.getElementById("status");
 
   try {
-    const db = await openDB();
-    const savedRows = await getAllSavedSeries(db);
+    const savedRows = await loadSeriesFromJSON();
+status.textContent = `Saved series: ${savedRows.length}`;
 
     status.textContent = `Saved series: ${savedRows.length}`;
 
