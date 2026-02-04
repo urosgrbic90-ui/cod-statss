@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Player Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
+      <h1 style="color:white; margin:0;">Player Profile</h1>
+      <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+        <a href="players.html" class="tab-btn">← Back to Players</a>
+        <a href="index.html" class="tab-btn">Match Entry</a>
+      </div>
+    </div>
+
+    <div style="margin:14px 0; display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+      <label for="playerSelect" style="color:#bbb;">Select player:</label>
+      <select id="playerSelect" class="tab-btn" style="padding:10px 12px;"></select>
+      <span id="status" style="color:#bbb;"></span>
+    </div>
+
+    <div id="profileSummary"></div>
+    <div id="profileHistory" style="margin-top:16px;"></div>
+  </div>
+
+  <script src="player.js"></script>
+</body>
+</html>

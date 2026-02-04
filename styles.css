@@ -1,0 +1,106 @@
+* { box-sizing: border-box; font-family: Inter, Arial, sans-serif; }
+
+body {
+  margin: 0;
+  background: #0e0f14;
+  color: #eaeaea;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+/* Header */
+.match-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.team h2 { margin: 0; font-size: 34px; }
+.record { color: #8a8f98; font-size: 16px; }
+.score { font-size: 64px; font-weight: 800; letter-spacing: 1px; }
+
+/* Maps */
+.maps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+
+.map-card {
+  background: #161823;
+  border-radius: 14px;
+  padding: 18px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.mode {
+  font-size: 12px;
+  color: #8a8f98;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.map-card h3 { margin: 10px 0 12px; font-size: 28px; }
+
+.result {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin: 22px 0 14px;
+  flex-wrap: wrap;
+}
+
+.tab-btn {
+  background: #161823;
+  border: 1px solid rgba(255,255,255,0.10);
+  color: #eaeaea;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 650;
+}
+
+.tab-btn.active {
+  border-color: rgba(255,255,255,0.30);
+  background: rgba(255,255,255,0.06);
+}
+
+/* Tables */
+.stats { margin-top: 18px; }
+.stats h3 { margin: 0 0 10px; font-size: 22px; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255,255,255,0.02);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+th { color: #cfd3da; font-weight: 700; }
+
+/* Colors (force) */
+.result .green, td.green { color: #4cff8f !important; font-weight: 800; }
+.result .red, td.red     { color: #ff4c4c !important; font-weight: 800; }
+#tabs { outline: 2px solid rgba(255,255,255,0.15); min-height: 44px; }
+#tabContent { outline: 2px solid rgba(255,255,255,0.10); min-height: 60px; margin-top: 12px; }
+

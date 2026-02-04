@@ -1,0 +1,758 @@
+{
+  "series": [
+    {
+      "id": "series_1770190571949",
+      "savedAt": "2026-02-04T07:36:11.949Z",
+      "match": {
+        "teams": {
+          "A": {
+            "name": "Team A",
+            "record": "0"
+          },
+          "B": {
+            "name": "Team B",
+            "record": "0"
+          }
+        },
+        "seriesScore": {
+          "A": 3,
+          "B": 0
+        },
+        "maps": [
+          {
+            "mapNumber": 1,
+            "mode": "Hardpoint",
+            "mapName": "Colossus",
+            "score": {
+              "A": 250,
+              "B": 231
+            },
+            "stats": {
+              "A": [
+                {
+                  "name": "Angel",
+                  "kills": 36,
+                  "deaths": 27,
+                  "damage": 3831,
+                  "hillTime": 80
+                },
+                {
+                  "name": "Dmorr",
+                  "kills": 38,
+                  "deaths": 31,
+                  "damage": 4420,
+                  "hillTime": 104
+                },
+                {
+                  "name": "CC9",
+                  "kills": 19,
+                  "deaths": 29,
+                  "damage": 2686,
+                  "hillTime": 99
+                },
+                {
+                  "name": "Nemmii",
+                  "kills": 26,
+                  "deaths": 28,
+                  "damage": 3538,
+                  "hillTime": 73
+                }
+              ],
+              "B": [
+                {
+                  "name": "Garfield",
+                  "kills": 33,
+                  "deaths": 30,
+                  "damage": 4479,
+                  "hillTime": 127
+                },
+                {
+                  "name": "Hameyz",
+                  "kills": 27,
+                  "deaths": 26,
+                  "damage": 3282,
+                  "hillTime": 64
+                },
+                {
+                  "name": "Odee",
+                  "kills": 26,
+                  "deaths": 30,
+                  "damage": 2654,
+                  "hillTime": 95
+                },
+                {
+                  "name": "Sempy",
+                  "kills": 29,
+                  "deaths": 33,
+                  "damage": 3924,
+                  "hillTime": 33
+                }
+              ]
+            }
+          },
+          {
+            "mapNumber": 2,
+            "mode": "Search & Destroy",
+            "mapName": "Raid",
+            "score": {
+              "A": 6,
+              "B": 5
+            },
+            "stats": {
+              "A": [
+                {
+                  "name": "Angel",
+                  "kills": 7,
+                  "deaths": 8,
+                  "damage": 920,
+                  "firstBloods": 2
+                },
+                {
+                  "name": "Dmorr",
+                  "kills": 12,
+                  "deaths": 5,
+                  "damage": 1352,
+                  "firstBloods": 3
+                },
+                {
+                  "name": "CC9",
+                  "kills": 2,
+                  "deaths": 10,
+                  "damage": 419,
+                  "firstBloods": 0
+                },
+                {
+                  "name": "Nemmii",
+                  "kills": 4,
+                  "deaths": 6,
+                  "damage": 924,
+                  "firstBloods": 0
+                }
+              ],
+              "B": [
+                {
+                  "name": "Garfield",
+                  "kills": 5,
+                  "deaths": 7,
+                  "damage": 790,
+                  "firstBloods": 2
+                },
+                {
+                  "name": "Hameyz",
+                  "kills": 8,
+                  "deaths": 6,
+                  "damage": 1078,
+                  "firstBloods": 3
+                },
+                {
+                  "name": "Odee",
+                  "kills": 6,
+                  "deaths": 7,
+                  "damage": 753,
+                  "firstBloods": 0
+                },
+                {
+                  "name": "Sempy",
+                  "kills": 8,
+                  "deaths": 5,
+                  "damage": 1092,
+                  "firstBloods": 1
+                }
+              ]
+            }
+          },
+          {
+            "mapNumber": 3,
+            "mode": "Overload",
+            "mapName": "Exposure",
+            "score": {
+              "A": 7,
+              "B": 2
+            },
+            "stats": {
+              "A": [
+                {
+                  "name": "Angel",
+                  "kills": 32,
+                  "deaths": 19,
+                  "damage": 2931,
+                  "goals": 2
+                },
+                {
+                  "name": "Dmorr",
+                  "kills": 27,
+                  "deaths": 25,
+                  "damage": 3612,
+                  "goals": 2
+                },
+                {
+                  "name": "CC9",
+                  "kills": 18,
+                  "deaths": 23,
+                  "damage": 1892,
+                  "goals": 0
+                },
+                {
+                  "name": "Nemmii",
+                  "kills": 17,
+                  "deaths": 24,
+                  "damage": 2510,
+                  "goals": 3
+                }
+              ],
+              "B": [
+                {
+                  "name": "Garfield",
+                  "kills": 20,
+                  "deaths": 21,
+                  "damage": 2946,
+                  "goals": 0
+                },
+                {
+                  "name": "Hameyz",
+                  "kills": 23,
+                  "deaths": 21,
+                  "damage": 2457,
+                  "goals": 2
+                },
+                {
+                  "name": "Odee",
+                  "kills": 10,
+                  "deaths": 28,
+                  "damage": 1725,
+                  "goals": 0
+                },
+                {
+                  "name": "Sempy",
+                  "kills": 37,
+                  "deaths": 24,
+                  "damage": 3996,
+                  "goals": 0
+                }
+              ]
+            }
+          },
+          {
+            "mapNumber": 4,
+            "mode": "Hardpoint",
+            "mapName": "NONE",
+            "score": {
+              "A": 0,
+              "B": 0
+            },
+            "stats": {
+              "A": [
+                {
+                  "name": "Angel",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "hillTime": 0
+                },
+                {
+                  "name": "Dmorr",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "hillTime": 0
+                },
+                {
+                  "name": "CC9",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "hillTime": 0
+                },
+                {
+                  "name": "Nemmii",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "hillTime": 0
+                }
+              ],
+              "B": [
+                {
+                  "name": "Garfield",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "hillTime": 0
+                },
+                {
+                  "name": "Hameyz",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "hillTime": 0
+                },
+                {
+                  "name": "Odee",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "hillTime": 0
+                },
+                {
+                  "name": "Sempy",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "hillTime": 0
+                }
+              ]
+            }
+          },
+          {
+            "mapNumber": 5,
+            "mode": "Search & Destroy",
+            "mapName": "NONE",
+            "score": {
+              "A": 0,
+              "B": 0
+            },
+            "stats": {
+              "A": [
+                {
+                  "name": "Angel",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "firstBloods": 0
+                },
+                {
+                  "name": "Dmorr",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "firstBloods": 0
+                },
+                {
+                  "name": "CC9",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "firstBloods": 0
+                },
+                {
+                  "name": "Nemmii",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "firstBloods": 0
+                }
+              ],
+              "B": [
+                {
+                  "name": "Garfield",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "firstBloods": 0
+                },
+                {
+                  "name": "Hameyz",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "firstBloods": 0
+                },
+                {
+                  "name": "Odee",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "firstBloods": 0
+                },
+                {
+                  "name": "Sempy",
+                  "kills": 0,
+                  "deaths": 0,
+                  "damage": 0,
+                  "firstBloods": 0
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "series_1770238685263",
+      "savedAt": "2026-02-04T20:58:05.263Z",
+      "match": {
+        "teams": {
+          "A": {
+            "name": "Team A",
+            "record": "0"
+          },
+          "B": {
+            "name": "Team B",
+            "record": "0"
+          }
+        },
+        "seriesScore": {
+          "A": 3,
+          "B": 0
+        },
+        "maps": [
+          {
+            "mapNumber": 1,
+            "mode": "Hardpoint",
+            "mapName": "Scar",
+            "score": {
+              "A": 175,
+              "B": 250
+            },
+            "stats": {
+              "A": [
+                {
+                  "name": "Sempy",
+                  "kills": 31,
+                  "deaths": 25,
+                  "damage": 3311,
+                  "hillTime": 55
+                },
+                {
+                  "name": "Odee",
+                  "kills": 15,
+                  "deaths": 23,
+                  "damage": 2397,
+                  "hillTime": 24
+                },
+                {
+                  "name": "CC9",
+                  "kills": 19,
+                  "deaths": 29,
+                  "damage": 2528,
+                  "hillTime": 72
+                },
+                {
+                  "name": "Hameyz",
+                  "kills": 31,
+                  "deaths": 24,
+                  "damage": 3586,
+                  "hillTime": 40
+                }
+              ],
+              "B": [
+                {
+                  "name": "Telo",
+                  "kills": 22,
+                  "deaths": 21,
+                  "damage": 3057,
+                  "hillTime": 71
+                },
+                {
+                  "name": "Garfield",
+                  "kills": 31,
+                  "deaths": 23,
+                  "damage": 3514,
+                  "hillTime": 25
+                },
+                {
+                  "name": "Nemmii",
+                  "kills": 26,
+                  "deaths": 22,
+                  "damage": 3003,
+                  "hillTime": 83
+                },
+                {
+                  "name": "Chuni",
+                  "kills": 20,
+                  "deaths": 30,
+                  "damage": 2435,
+                  "hillTime": 112
+                }
+              ]
+            }
+          },
+          {
+            "mapNumber": 2,
+            "mode": "Search & Destroy",
+            "mapName": "Colossus",
+            "score": {
+              "A": 6,
+              "B": 2
+            },
+            "stats": {
+              "A": [
+                {
+                  "name": "Sempy",
+                  "kills": 10,
+                  "deaths": 7,
+                  "damage": 1306,
+                  "firstBloods": 1
+                },
+                {
+                  "name": "Odee",
+                  "kills": 3,
+                  "deaths": 5,
+                  "damage": 729,
+                  "firstBloods": 0
+                },
+                {
+                  "name": "CC9",
+                  "kills": 6,
+                  "deaths": 5,
+                  "damage": 1010,
+                  "firstBloods": 1
+                },
+                {
+                  "name": "Hameyz",
+                  "kills": 7,
+                  "deaths": 3,
+                  "damage": 740,
+                  "firstBloods": 3
+                }
+              ],
+              "B": [
+                {
+                  "name": "Telo",
+                  "kills": 5,
+                  "deaths": 8,
+                  "damage": 821,
+                  "firstBloods": 2
+                },
+                {
+                  "name": "Garfield",
+                  "kills": 7,
+                  "deaths": 5,
+                  "damage": 870,
+                  "firstBloods": 0
+                },
+                {
+                  "name": "Nemmii",
+                  "kills": 7,
+                  "deaths": 6,
+                  "damage": 746,
+                  "firstBloods": 1
+                },
+                {
+                  "name": "Chuni",
+                  "kills": 1,
+                  "deaths": 7,
+                  "damage": 315,
+                  "firstBloods": 0
+                }
+              ]
+            }
+          },
+          {
+            "mapNumber": 3,
+            "mode": "Overload",
+            "mapName": "Den",
+            "score": {
+              "A": 3,
+              "B": 2
+            },
+            "stats": {
+              "A": [
+                {
+                  "name": "Sempy",
+                  "kills": 37,
+                  "deaths": 21,
+                  "damage": 3945,
+                  "goals": 1
+                },
+                {
+                  "name": "Odee",
+                  "kills": 19,
+                  "deaths": 22,
+                  "damage": 2621,
+                  "goals": 1
+                },
+                {
+                  "name": "CC9",
+                  "kills": 16,
+                  "deaths": 20,
+                  "damage": 2086,
+                  "goals": 1
+                },
+                {
+                  "name": "Hameyz",
+                  "kills": 28,
+                  "deaths": 16,
+                  "damage": 2947,
+                  "goals": 0
+                }
+              ],
+              "B": [
+                {
+                  "name": "Telo",
+                  "kills": 17,
+                  "deaths": 27,
+                  "damage": 2334,
+                  "goals": 0
+                },
+                {
+                  "name": "Garfield",
+                  "kills": 20,
+                  "deaths": 24,
+                  "damage": 2548,
+                  "goals": 0
+                },
+                {
+                  "name": "Nemmii",
+                  "kills": 26,
+                  "deaths": 24,
+                  "damage": 3375,
+                  "goals": 1
+                },
+                {
+                  "name": "Chuni",
+                  "kills": 16,
+                  "deaths": 25,
+                  "damage": 2028,
+                  "goals": 1
+                }
+              ]
+            }
+          },
+          {
+            "mapNumber": 4,
+            "mode": "Hardpoint",
+            "mapName": "Blackheart",
+            "score": {
+              "A": 224,
+              "B": 250
+            },
+            "stats": {
+              "A": [
+                {
+                  "name": "Sempy",
+                  "kills": 41,
+                  "deaths": 30,
+                  "damage": 4671,
+                  "hillTime": 100
+                },
+                {
+                  "name": "Odee",
+                  "kills": 28,
+                  "deaths": 31,
+                  "damage": 3842,
+                  "hillTime": 94
+                },
+                {
+                  "name": "CC9",
+                  "kills": 24,
+                  "deaths": 37,
+                  "damage": 3024,
+                  "hillTime": 90
+                },
+                {
+                  "name": "Hameyz",
+                  "kills": 48,
+                  "deaths": 26,
+                  "damage": 5183,
+                  "hillTime": 63
+                }
+              ],
+              "B": [
+                {
+                  "name": "Telo",
+                  "kills": 32,
+                  "deaths": 37,
+                  "damage": 3466,
+                  "hillTime": 45
+                },
+                {
+                  "name": "Garfield",
+                  "kills": 37,
+                  "deaths": 36,
+                  "damage": 4180,
+                  "hillTime": 95
+                },
+                {
+                  "name": "Nemmii",
+                  "kills": 32,
+                  "deaths": 30,
+                  "damage": 4111,
+                  "hillTime": 149
+                },
+                {
+                  "name": "Chuni",
+                  "kills": 23,
+                  "deaths": 38,
+                  "damage": 3297,
+                  "hillTime": 90
+                }
+              ]
+            }
+          },
+          {
+            "mapNumber": 5,
+            "mode": "Search & Destroy",
+            "mapName": "Raid",
+            "score": {
+              "A": 6,
+              "B": 4
+            },
+            "stats": {
+              "A": [
+                {
+                  "name": "Sempy",
+                  "kills": 14,
+                  "deaths": 5,
+                  "damage": 1820,
+                  "firstBloods": 3
+                },
+                {
+                  "name": "Odee",
+                  "kills": 2,
+                  "deaths": 8,
+                  "damage": 477,
+                  "firstBloods": 0
+                },
+                {
+                  "name": "CC9",
+                  "kills": 6,
+                  "deaths": 7,
+                  "damage": 728,
+                  "firstBloods": 1
+                },
+                {
+                  "name": "Hameyz",
+                  "kills": 8,
+                  "deaths": 6,
+                  "damage": 1012,
+                  "firstBloods": 3
+                }
+              ],
+              "B": [
+                {
+                  "name": "Telo",
+                  "kills": 5,
+                  "deaths": 8,
+                  "damage": 703,
+                  "firstBloods": 1
+                },
+                {
+                  "name": "Garfield",
+                  "kills": 6,
+                  "deaths": 8,
+                  "damage": 1050,
+                  "firstBloods": 1
+                },
+                {
+                  "name": "Nemmii",
+                  "kills": 5,
+                  "deaths": 6,
+                  "damage": 802,
+                  "firstBloods": 0
+                },
+                {
+                  "name": "Chuni",
+                  "kills": 10,
+                  "deaths": 8,
+                  "damage": 1350,
+                  "firstBloods": 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
